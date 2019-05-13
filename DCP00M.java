@@ -5,13 +5,6 @@ import java.util.Arrays;
 /*
  * badNumbers; Return the intervals of numbers between provided boundaries and set badNumbers
  * 
- * Solving the problem without sorting the array would mean a doubly-nested loop, wherein the programmer must check for the smallest difference in range
- * as that would mean the two values have no badNumbers between them. Then that difference value would have to be compared with a maximum to determine if 
- * the value was the largest.
- * 
- * Alternatively, you could iterate from l to r, and increment a counter with every step. When encountering a bad value, count is reset and the iteration continues.
- * E.g. l = 0, r = 1,000, arr = { 1 } would mean 1,000 iterations with the if statement triggering once.
- * This would be a poor solution.
  */
 public class DCP00M 
 {
