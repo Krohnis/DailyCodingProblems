@@ -11,6 +11,10 @@ public class DCP74M
 		System.out.println(cp.multiplicationTable(12, 12));
 	}
 	
+	/*
+	 * Runtime O(N) && Space O(1). Could be done instead with a doubly-nested loop, and looking for the target
+	 * X value throughout the multiplication table however that would have an O(N^2) Runtime
+	 */
 	public int multiplicationTable(int N, int X)
 	{
 		int ret = 0;
